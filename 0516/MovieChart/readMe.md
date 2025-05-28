@@ -1,5 +1,4 @@
 ![image](https://github.com/user-attachments/assets/b68fdd19-e33f-4609-86d0-8c4b2d3aa567)
-![Uploading image.png…]()
 # 🎬 MovieChart 앱 소개
 
 ## 📱 개요
