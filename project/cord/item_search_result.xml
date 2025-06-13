@@ -1,0 +1,48 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="#FFFFFF"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/searchJapaneseText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="学校"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/searchReadingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="がっこう"
+            android:textSize="14sp"
+            android:textColor="#93C5FD"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/searchMeaningText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="school"
+            android:textSize="14sp"
+            android:textColor="#1E3A8A"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

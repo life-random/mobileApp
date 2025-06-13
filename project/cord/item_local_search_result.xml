@@ -1,0 +1,82 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="#FFFFFF"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/localJapaneseText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="学校"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:id="@+id/localReadingText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="がっこう"
+                android:textSize="14sp"
+                android:textColor="#93C5FD"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:id="@+id/localMeaningText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="학교"
+                android:textSize="14sp"
+                android:textColor="#1E3A8A"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/rounded_background_light"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💾"
+                android:textSize="18sp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/localStudyCountText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="학습 3회"
+                android:textSize="10sp"
+                android:textColor="#1E3A8A"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
